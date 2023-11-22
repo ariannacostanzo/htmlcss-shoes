@@ -1,17 +1,16 @@
-/* css reset */
+/* scroll behavior */
 html {
     overflow: hidden;
     scroll-behavior: smooth;
 }
 
+/* css reset */
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
 }
-
-
 
 /* Generics */
 
@@ -37,7 +36,6 @@ a {
     height: 100vh;
     position: relative;
 }
-
 
 
 #first-page {
@@ -72,10 +70,11 @@ a {
 }
 
 .content-container h2 {
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
     color: yellow;
     line-height: 1.1;
+    font-weight: normal;
 
 }
 
@@ -112,7 +111,6 @@ a {
     box-shadow: 0 2px 5px black;
 
 }
-
 
 .navigation-menu a:hover {
     scale: 1.1;
